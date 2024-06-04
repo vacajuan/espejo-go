@@ -1,6 +1,6 @@
 server {
   listen 80;
-  server_name go-cuotas.ole-noticias.com;
+  server_name go.ole-noticias.com;
    # SSL configuration
 
     listen 443 ssl http2;
