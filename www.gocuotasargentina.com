@@ -1,6 +1,6 @@
 server {
   listen 80;
-  server_name go.ole-noticias.com;
+  server_name www.gocuotasargentina.com;
    # SSL configuration
 
     listen 443 ssl http2;
@@ -15,6 +15,6 @@ server {
     proxy_set_header Connection "Upgrade";
     proxy_http_version 1.1;
     proxy_set_header Host $host;
-    proxy_pass http://localhost:6002;
+    proxy_pass http://localhost:6005;
   }
 }
